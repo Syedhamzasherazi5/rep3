@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: grey;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            border: 10px solid black;
+            border-top: 0;
+        }
+
+        .foot {
+            background-color: lightblue;
+            padding: 2px;
+            text-align: center;
+            width: 100%;
+            overflow: auto;
+        }
+
+        .d {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            margin-left: 50px;
+        }
+
+        .d1 {
+            margin-left: 10px;
+            margin-right: 50px;
+            background-color: aquamarine;
+        }
+
+        .navbar {
+            position: fixed;
+            background-color: lightblue;
+            padding: 6px;
+            text-align: center;
+            width: 100%;
+            margin-bottom: 30px;
+            overflow: auto;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            background-color: lightblue;
+        }
+
+        .foot ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            background-color: lightblue;
+        }
+
+        .navbar li {
+            display: inline;
+        }
+
+        img {
+            width: 100%; /* Make the image responsive */
+            display: block;
+            margin: 0 auto;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: powderblue;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+            }
+
+            .navbar li {
+                margin-bottom: 10px;
+            }
+
+            .d {
+                grid-template-columns: 100%; /* Make the columns stack in small screens */
+            }
+
+            .d1 {
+                margin-right: 10px; /* Adjust margin for better spacing on small screens */
+            }
+        }
+    </style>
+    <title>Syed Ali</title>
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+        </ul>
+    </nav>
+</header>
+
+<img src="hamza.jpeg" alt="Syed Ali">
+
+<h1>Introduction</h1>
+<p>
+    Hey I'm Syed Ali Hamza, a final year computer science
+    student on a mission to bring digital ideas to life. Proficient
+    in the realms of Unity 3D, C/C++, and C#, I thrive on turning innovative
+    concepts into interactive experiences. Whether it's crafting immersive virtual worlds or coding elegant solutions,
+    I'm passionate about pushing the boundaries of what's possible in the tech universe.
+    Let's build something extraordinary together! 🚀✨
+</p>
+
+<h2 style="font-size:160%;">Educational History</h2>
+<table>
+    <tr style="background-color:powderblue;">
+        <th>Degree</th>
+        <th>Institute</th>
+        <th>Year</th>
+    </tr>
+    <tr>
+        <td>BS Computer Science</td>
+        <td>University of Sialkot</td>
+        <td>2020-2024</td>
+    </tr>
+    <tr>
+        <td>Intermediate</td>
+        <td>Punjab College</td>
+        <td>2018-2020</td>
+    </tr>
+    <tr>
+        <td>Matric</td>
+        <td>Govt Allama Iqbal School</td>
+        <td>2016-2018</td>
+    </tr>
+</table>
+
+<h3 style="font-size:160%;">About Me</h3>
+<table>
+    <tr style="background-color:powderblue;">
+        <th>Professional Skills</th>
+        <th>Hobbies</th>
+        <th>Projects</th>
+    </tr>
+    <tr>
+        <td>Unity 3D</td>
+        <td>Cricket</td>
+        <td>Mystery World Puzzle Game</td>
+    </tr>
+    <tr>
+        <td>C++</td>
+        <td>writing</td>
+        <td>car parking</td>
+    </tr>
+    <tr>
+        <td>C#</td>
+        <td>Reading</td>
+        <td>Learning Management System</td>
+    </tr>
+</table>
+
+<div class="d">
+    <div style="background-color: aquamarine;">
+        <h5>My Life Ambition :</h5>
+        <p>As a computer science student, my mission is to harness cutting-edge
+            technologies and apply them to real-world problems, contributing to
+            positive change in society. Through social work experiences, I aim to
+            bridge the gap between technology and community welfare, utilizing my
+            skills to develop innovative solutions that make a tangible difference.
+            By staying at the forefront of advancements and actively engaging in social initiatives,
+            I aspire to create a lasting impact that resonates with the needs of the modern world.</p>
+    </div>
+
+    <div class="d1">
+        <h6>What I did for My Country:</h6>
+        <p>Engaged in community service and local development projects, I've volunteered with charities
+            , advocated for social awareness, and supported causes promoting the well-being of my community,
+            aligning my actions with a modern ethos of social responsibility.</p>
+    </div>
+</div>
+
+<footer class="foot">
+    <h4>Email: syedhamzasherazi8@gmail.com</h4>
+    <ul class="foot">
+        <li>
+            <a href="https://wa.me/your-whatsapp-number" target="_blank" rel="noopener noreferrer">
+                <img src="whatsapp-logo-vertical.png" alt="WhatsApp" style="width: 30px; height: 30px;">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/your-facebook-profile" target="_blank" rel="noopener noreferrer">
+                <img src="facebook-logo.png" alt="Facebook" style="width: 30px; height: 30px;">
+            </a>
+        </li>
+    </ul>
+</footer>
+
+</body>
+</html>

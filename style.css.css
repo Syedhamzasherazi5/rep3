@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+.logo{
+    font-size: 35px;
+    padding: 0 200px;
+    line-height: 60px;
+}
+.navbar{
+    color: white;
+    background-color: #5893d9;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.navbar ul{
+    float: right;
+    margin-right: 56px;
+   
+}
+.navbar ul li{
+    
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 35px;
+    font-size: 17px;
+} 
+.bgimage{
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.content{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 0%;
+    float: left;
+    margin: 350px 0px 0px 1100px;
+    width: 45%;
+    
+}
+#name{
+    color: #5893d9;
+}
+.content p{
+    padding: 20px 0px;
+    width: 60%;
+    
+}
+.face{
+    position: absolute;
+    top: 0;
+    margin: 273px 10px 5px 137px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px;
+}
+#projects {
+background-color: #5893d9;
+   
+}
+.footer{
+    background-color: #5893d9;
+    padding: 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+ 
